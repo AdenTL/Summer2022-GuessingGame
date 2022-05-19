@@ -11,3 +11,11 @@ if (userInput == num)
 {
     Console.WriteLine("You guess the correct number");
 }
+else if (userInput > 10 || userInput < 0) 
+{
+Console.WriteLine("please enter a number within the range 1-10");
+}
+else 
+{
+    Console.WriteLine("You chose the wrong number");
+}
