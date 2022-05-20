@@ -61,39 +61,3 @@ while(tries < 3)
 
 
 }
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-//switch (userInput)
-//{
-//    case 0: Console.WriteLine("Please enter your first number");
-//        break;
-
-//    case 1:
-//        Console.WriteLine("Please enter your second number");
-//        break;
-
-//    case 2:
-//        Console.WriteLine("Please enter your third number");
-//        break;
-//    default: Console.WriteLine("Please enter a value from 1-10");
-//        break;
-
-//}
-
-=======
-else if (userInput > 10 || userInput < 0) 
-{
-Console.WriteLine("please enter a number within the range 1-10");
-}
-else 
-{
-    Console.WriteLine("You chose the wrong number");
-}
->>>>>>> 2fd6b60104ecead96d483c98066f80a31efc8acf
